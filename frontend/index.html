@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login with Google</title>
+</head>
+<body>
+<h2>Sign in with Google</h2>
+<button id="googleLoginBtn">Login with Google</button>
+
+<script>
+    document.getElementById('googleLoginBtn').addEventListener('click', () => {
+
+        window.location.href = 'http://localhost:4000/auth/google';
+    });
+</script>
+</body>
+</html>
